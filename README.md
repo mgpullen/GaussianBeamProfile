@@ -16,3 +16,5 @@ This function accepts (x, y) data and attempts to fit a Gaussian distribution to
 
 analyseFittingResults.m
 The results from fitBeamProfiles.m are loaded and two figures are plotted. The first figure shows an example heatmap of the laser distribution from a random CCD image. Line-outs at the point of maixmum intensity are presented in both dimensions alongside their corresponding best Gaussian fits. The second image presents the results of the time series analysis. The four parameters of the Gaussian fits are plotted as a function of the measurement time.
+
+NOTE: Also included is the inferno.m color map that was obtained from https://bids.github.io/colormap/
