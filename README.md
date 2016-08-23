@@ -1,5 +1,9 @@
 # GaussianBeamProfile
-Here I provide scripts that analyse a time series of images from a CCD chip. An experiment was performed where a CCD camera was illuminated with a focussed laser beam and the signal from the array was read out by a computer every five seconds. The data consists of 960 such images (for a total acquisition time of 80 minutes).
+
+The analysis performed using the files in this repository was utilised in one of my blog posts:
+https://mgpullen.wordpress.com/2016/08/22/matlab-lasers/
+
+Scripts are provided that analyse a time series of images from a CCD chip. An experiment was performed where a CCD camera was illuminated with a focussed laser beam and the signal from the array was read out by a computer every five seconds. The data consists of 960 such images (for a total acquisition time of 80 minutes).
 
 The goal of the data analysis is to obtain time series plots of different parameters of the lasers spatial distribution. To do this I developed an algorithm that fits a Gaussian profile in both directions (x & y) of the image. The parameters of the individual fits are then extracted and stored.
 
