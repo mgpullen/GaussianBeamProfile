@@ -1,7 +1,7 @@
 # GaussianBeamProfile
 
 The analysis performed using the files in this repository was utilised in one of my blog posts:
-https://mgpullen.wordpress.com/2016/08/22/matlab-lasers/
+https://mgpullen.wordpress.com/2016/08/22/matlab-lasers-and-non-linear-regression/
 
 Scripts are provided that analyse a time series of images from a CCD chip. An experiment was performed where a CCD camera was illuminated with a focussed laser beam and the signal from the array was read out by a computer every five seconds. The data consists of 960 such images (for a total acquisition time of 80 minutes).
 
